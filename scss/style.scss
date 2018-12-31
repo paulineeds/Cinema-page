@@ -1,24 +1,66 @@
-$maincolor: #3B7047;
-$secondcolor: #62A87C;
+$maincolor: #3993DD;
+$secondcolor: #E1B07E;
+$font: 'Khand', sans-serif;
+
+html {
+  body{
+  margin: 0px;
+  font-family: $font;
+}}
+
+
+%center {
+  width: 80%;
+  margin:0 auto;
+}
 
 header {
-  display: flex;
-  justify-content: space-between;
+
   background-color: $maincolor;
+
+    .headercenter{
+      @extend %center;
+      display: flex;
+      justify-content: space-between;
+
+    h1{
+      font-size: 50px;
+    }
+  }
 }
 
 nav {
   background-color: $secondcolor;
+  height: 5%;
+
+  .navcenter {
+    @extend %center;
+  }
 }
 
 section {
-  width: 80%;
-  background-color: red;
-  margin: auto;
+  @extend %center;
 }
 
 footer {
-  background-color: $maincolor;
-  display: flex;
 
+  background-color: $maincolor;
+  .footercenter{
+    @extend %center;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+      font-size: 12px;
+      list-style: none;
+      text-align: left;
+      padding:0px;
+    }
+  .social {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 18.720px;
+  }
+  }
 }

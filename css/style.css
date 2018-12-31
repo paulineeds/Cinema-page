@@ -1,20 +1,50 @@
+html body {
+  margin: 0px;
+  font-family: "Khand", sans-serif;
+}
+
+header .headercenter, nav .navcenter, section, footer .footercenter {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
+  background-color: #3993DD;
+}
+
+header .headercenter {
   display: flex;
   justify-content: space-between;
-  background-color: #3B7047;
+}
+
+header .headercenter h1 {
+  font-size: 50px;
 }
 
 nav {
-  background-color: #62A87C;
-}
-
-section {
-  width: 80%;
-  background-color: red;
-  margin: auto;
+  background-color: #E1B07E;
+  height: 5%;
 }
 
 footer {
-  background-color: #3B7047;
+  background-color: #3993DD;
+}
+
+footer .footercenter {
   display: flex;
+  justify-content: space-between;
+}
+
+footer .footercenter ul {
+  font-size: 12px;
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+}
+
+footer .footercenter .social {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-top: 18.720px;
 }
