@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3B7047;
+}
+
+nav {
+  background-color: #62A87C;
+}
+
+section {
+  width: 80%;
+  background-color: red;
+  margin: auto;
+}
+
+footer {
+  background-color: #3B7047;
+  display: flex;
+}

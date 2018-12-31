@@ -1,0 +1,24 @@
+$maincolor: #3B7047;
+$secondcolor: #62A87C;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $maincolor;
+}
+
+nav {
+  background-color: $secondcolor;
+}
+
+section {
+  width: 80%;
+  background-color: red;
+  margin: auto;
+}
+
+footer {
+  background-color: $maincolor;
+  display: flex;
+
+}
