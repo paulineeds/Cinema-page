@@ -26,6 +26,31 @@ nav {
   height: 30px;
 }
 
+nav .navcenter {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+nav .navcenter .links {
+  width: 500px;
+}
+
+nav .navcenter .rechts {
+  width: 500px;
+  text-align: right;
+}
+
+nav .navcenter .rechts i {
+  padding-right: 2px;
+}
+
+nav .navcenter .rechts input {
+  background-color: #C0B7B1;
+  border-radius: 10px;
+  outline: none;
+}
+
 nav .navcenter a {
   padding-right: 2%;
   text-decoration: none;
@@ -38,6 +63,12 @@ nav .navcenter a {
 section a {
   text-decoration: none;
   color: black;
+}
+
+section input {
+  border-radius: 10px;
+  border-color: black;
+  outline: none;
 }
 
 section .image {

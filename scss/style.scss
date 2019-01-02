@@ -32,8 +32,30 @@ nav {
   background-color: $secondcolor;
   height: 30px;
 
+
   .navcenter {
     @extend %center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .links {
+      width: 500px;
+  }
+    .rechts {
+      width: 500px;
+      text-align: right;
+      i {
+        padding-right: 2px;
+      }
+      input {
+        background-color: $secondcolor;
+        border-radius: 10px;
+        outline: none;
+      }
+    }
+
+
 
     a {
       padding-right: 2%;
@@ -52,6 +74,12 @@ section {
   a {
     text-decoration: none;
     color: black;
+  }
+
+  input {
+    border-radius: 10px;
+    border-color: black;
+    outline: none;
   }
 
   .image {
