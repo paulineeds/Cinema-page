@@ -41,29 +41,31 @@ nav {
 
     .links {
       width: 500px;
+      margin-top: 1.5px;
   }
     .rechts {
-      width: 500px;
+      width: 900px;
       text-align: right;
+      margin-top: 1.5px;
+
       i {
         padding-right: 2px;
       }
+
       input {
         background-color: $secondcolor;
         border-radius: 10px;
         outline: none;
+        width: 15%;
+        border-color:black;
       }
     }
 
-
-
     a {
-      padding-right: 2%;
+      padding-right: 10%;
       text-decoration: none;
       font-size: 16px;
       color: black;
-      height: 30px;
-      line-height: 30px;
     }
   }
 }
@@ -80,6 +82,7 @@ section {
     border-radius: 10px;
     border-color: black;
     outline: none;
+    padding-left: 5px;
   }
 
   .image {
