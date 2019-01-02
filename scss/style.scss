@@ -3,27 +3,26 @@ $secondcolor: #C0B7B1;
 $font: 'Khand', sans-serif;
 
 html {
-  body{
-  margin: 0px;
-  font-family: $font;
-}}
-
+  body {
+    margin: 0;
+    font-family: $font;
+  }
+}
 
 %center {
   width: 80%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 header {
-
   background-color: $maincolor;
 
-    .headercenter{
-      @extend %center;
-      display: flex;
-      justify-content: space-between;
+  .headercenter {
+    @extend %center;
+    display: flex;
+    justify-content: space-between;
 
-    h1{
+    h1 {
       font-size: 50px;
     }
   }
@@ -33,10 +32,8 @@ nav {
   background-color: $secondcolor;
   height: 30px;
 
-
   .navcenter {
     @extend %center;
-
 
     a {
       padding-right: 2%;
@@ -64,16 +61,19 @@ section {
     margin-top: 2%;
 
     h4 {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       font-size: 14px;
     }
-      h4:hover {
-        color: $maincolor;
+
+    h4:hover {
+      color: $maincolor;
     }
+
     p {
-      margin-top:0;
+      margin-top: 0;
       font-size: 14px;
     }
+
     img:hover {
       transform: scale(1.1);
     }
@@ -81,34 +81,32 @@ section {
 }
 
 footer {
-
   background-color: $maincolor;
-  .footercenter{
+
+  .footercenter {
     @extend %center;
     display: flex;
     justify-content: space-between;
 
-    ul{
+    ul {
       font-size: 12px;
       list-style: none;
       text-align: left;
-      padding:0px;
+      padding: 0;
     }
 
+    .social {
+      display: flex;
+      flex-direction: column;
+      margin-top: 18.720px;
 
-  .social {
-    display: flex;
-    flex-direction: column;
+      a {
+        padding: 40%;
+        color: black;
+      }
 
-    margin-top: 18.720px;
-
-    a {
-      padding: 40%;
-      color: black;
-    }
-
-    a:hover {
-      color: white;
+      a:hover {
+        color: white;
       }
     }
   }

@@ -1,5 +1,5 @@
 html body {
-  margin: 0px;
+  margin: 0;
   font-family: "Khand", sans-serif;
 }
 
@@ -48,7 +48,7 @@ section .image {
 }
 
 section .image h4 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 14px;
 }
 
@@ -78,7 +78,7 @@ footer .footercenter ul {
   font-size: 12px;
   list-style: none;
   text-align: left;
-  padding: 0px;
+  padding: 0;
 }
 
 footer .footercenter .social {
