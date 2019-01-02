@@ -53,6 +53,7 @@ nav .navcenter .rechts input {
   outline: none;
   width: 15%;
   border-color: black;
+  padding-left: 5px;
 }
 
 nav .navcenter a {
