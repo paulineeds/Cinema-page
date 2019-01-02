@@ -1,1 +1,93 @@
-html body{margin:0px;font-family:"Khand",sans-serif}header .headercenter,nav .navcenter,section,footer .footercenter{width:80%;margin:0 auto}header{background-color:#E2B500}header .headercenter{display:flex;justify-content:space-between}header .headercenter h1{font-size:50px}nav{background-color:#C0B7B1;height:5%}section .image{display:flex;flex-wrap:wrap;justify-content:space-between;margin-top:2%}section .image h4{margin-bottom:0px;font-size:14px}section .image p{margin-top:0;font-size:14px}footer{background-color:#E2B500}footer .footercenter{display:flex;justify-content:space-between}footer .footercenter ul{font-size:12px;list-style:none;text-align:left;padding:0px}footer .footercenter .social{display:flex;flex-direction:column;margin-top:18.720px}
+html body {
+  margin: 0px;
+  font-family: "Khand", sans-serif;
+}
+
+header .headercenter, nav .navcenter, section, footer .footercenter {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #E2B500;
+}
+
+header .headercenter {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .headercenter h1 {
+  font-size: 50px;
+}
+
+nav {
+  background-color: #C0B7B1;
+  height: 30px;
+}
+
+nav .navcenter a {
+  padding-right: 2%;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  height: 30px;
+  line-height: 30px;
+}
+
+section a {
+  text-decoration: none;
+  color: black;
+}
+
+section .image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+section .image h4 {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+section .image p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+section .image img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #E2B500;
+}
+
+footer .footercenter {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footercenter ul {
+  font-size: 12px;
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+}
+
+footer .footercenter .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18.720px;
+}
+
+footer .footercenter .social a {
+  padding: 40%;
+  color: black;
+}
+
+footer .footercenter .social a:hover {
+  color: white;
+}
